@@ -14,12 +14,4 @@ resource "aws_instance" "Udacity1" {
   }
 }
 # TODO: provision 2 m4.large EC2 instances named Udacity M4
-
-resource "aws_instance" "Udacity2" {
-  count = "0"
-  ami = "ami-0323c3dd2da7fb37d"
-  instance_type = "m4.large"
-  tags = {
-    Name = "Udacity M4"
-  }
-}
+# Code removed per review and removing two instances of M2. See previous commit for code
