@@ -1,11 +1,14 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,66.6,799.2,USD,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,4863.444,58361.33,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (db.r5.12xlarge)"
-My Estimate,US East (N. Virginia),Amazon EC2,0,13943.27,167319.24,USD,"Operating system (Linux), Quantity (11), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (200 GB), Instance type (m5d.12xlarge)"
-My Estimate,US East (N. Virginia),Elastic Load Balancing,0,441.65,5299.8,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),S3 Standard,0,23.05,276.6,USD,S3 Standard storage (1000 GB per month)
-My Estimate,US East (N. Virginia),Data Transfer,0,2.048,24.58,USD,"Data Transfer, Data transfer cost (2.048)"
-The instance size for EC2 and database are upgraded. EC2 storage reverted back to 200G but reduce one expect for the web app.,,,,,,,
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,74.7,896.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,5404.252,64851.02,USD,"Quantity (1), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (500 GB), Provisioning IOPS (20000), Instance type (db.m5.4xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,8426.56,101118.72,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (200 GB), Provisioning IOPS (5000), Instance type (m5.2xlarge)"
+My Estimate,US East (N. Virginia),S3 Standard,0,23.27,279.24,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,9.126,109.51,USD,"Data Transfer, Data transfer cost (9.126)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,12,144,USD,"Number of EC2 instances (8), Number of EIPs per instance (1), Number of EIP remaps (40)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,883.3,10599.6,USD,Number of Application Load Balancers (4)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,1702.126,20425.51,USD,"Quantity (1), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (500 GB), Provisioning IOPS (10000), Instance type (db.m5.4xlarge)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,2382.313,28587.76,USD,"Quantity (1), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (500 GB), Provisioning IOPS (20000), Instance type (db.m5.2xlarge)"
+"Overall, I anticipate more volume and traffic. Not only I add back the read replica for database, I added another one just in case. The EC2 instance family has been upgraded from the previous reduced budget ones.I also upgrade db instance family as well. I choose to improve EC2 and RDS because those two services are the most impactful.",,,,,,,
 ,,,,,,,
 ,,,,,,,
 "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,

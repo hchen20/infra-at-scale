@@ -1,10 +1,12 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,66.6,799.20,USD,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,816.324,9795.89,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (db.r5.2xlarge)"
-My Estimate,US East (N. Virginia),Amazon EC2,0,6811.76,81741.12,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (200 GB), Instance type (m5d.8xlarge)"
-My Estimate,US East (N. Virginia),Elastic Load Balancing,0,441.65000000000003,5299.80,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),S3 Standard,0,23.05,276.60,USD,S3 Standard storage (1000 GB per month)
-My Estimate,US East (N. Virginia),Data Transfer,0,2.048,24.58,USD,"Data Transfer, Data transfer cost (2.048)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,74.7,896.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,2284.943,27419.32,USD,"Quantity (1), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (500 GB), Provisioning IOPS (10000), Instance type (db.m5.large)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,1142.435,13709.22,USD,"Quantity (1), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (500 GB), Provisioning IOPS (10000), Instance type (db.m5.large)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,4486.5599999999995,53838.72,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (100 GB), Provisioning IOPS (3000), Instance type (m5.4xlarge)"
+My Estimate,US East (N. Virginia),S3 Standard,0,23.27,279.24,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,9.126,109.51,USD,"Data Transfer, Data transfer cost (9.126)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,12,144.00,USD,"Number of EC2 instances (8), Number of EIPs per instance (1), Number of EIP remaps (40)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,883.3000000000001,10599.60,USD,Number of Application Load Balancers (4)
 
 
 
